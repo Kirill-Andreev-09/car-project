@@ -6,9 +6,7 @@ const App = () => {
   return (
     <div className={styles.rootPage}>
       <Header />
-      <Router>
-        <MainPage path="/" />
-      </Router>
+      <MainPage />
     </div>
   );
 };

@@ -13,6 +13,9 @@ const Works = ({
 }) => {
   const { data, loading } = useQuery(LOAD_WORKS);
 
+  // const data = [];
+  // const loading = true;
+
   useEffect(() => {
     setCurrentData(data?.wizardWorks);
   }, [loading]);
